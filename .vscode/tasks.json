@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run PlantDoc Streamlit app",
+			"type": "shell",
+			"command": "C:\\Python313\\python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
